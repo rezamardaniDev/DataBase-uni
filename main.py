@@ -1,3 +1,5 @@
+# ******* run this File *******
+
 from database import db
 from functions import *
 
