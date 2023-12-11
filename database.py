@@ -4,8 +4,8 @@ class Connection:
         def __init__(self) -> None:
             self.mydb = mysql.connector.connect(
                 host = "localhost",
-                user = 'reza',
-                password = 'mardani80',
+                user = '', # add username
+                password = '', # add password
                 database = "shop"
             )
             
